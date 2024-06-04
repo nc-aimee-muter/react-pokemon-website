@@ -1,0 +1,10 @@
+.imageBox {
+  border-style: solid;
+  margin-bottom: 1em;
+  border-radius: 1em;
+  max-width: fit-content;
+  min-width: 15em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: white;
+}

@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Search from "../components/Search";
 import { getPokémon } from "../utils/requests";
+import Data from "../components/Data";
+import CycleButtons from "../components/CycleButtons";
 
 const PokémonPage = () => {
   const [pokémon, setPokémon] = useState();
@@ -21,7 +23,8 @@ const PokémonPage = () => {
   return (
     <>
       <Search setSearchTerm={setSearchTerm} isValidPokémon={isValidPokémon} />
-      {isValidPokémon && pokémon.name}
+      <CycleButtons pokémon={pokémon} setSearchTerm={setSearchTerm} />
+      <Data pokémon={pokémon} />
     </>
   );
 };

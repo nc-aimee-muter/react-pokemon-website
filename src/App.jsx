@@ -1,8 +1,15 @@
 import "./styles/App.css";
+import "./styles/styles.css";
 import PokémonPage from "./pages/PokémonPage";
+import Header from "./components/Header";
 
 function App() {
-  return <PokémonPage />;
+  return (
+    <section className="grid">
+      <Header />
+      <PokémonPage />
+    </section>
+  );
 }
 
 export default App;
