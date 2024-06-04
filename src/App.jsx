@@ -1,11 +1,8 @@
 import "./styles/App.css";
+import PokémonPage from "./pages/PokémonPage";
 
 function App() {
-  return (
-    <>
-      <h1>Pokémon</h1>
-    </>
-  );
+  return <PokémonPage />;
 }
 
 export default App;

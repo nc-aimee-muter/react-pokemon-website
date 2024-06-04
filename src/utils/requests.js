@@ -4,4 +4,4 @@ const pokeApi = axios.create({
   baseURL: "https://pokeapi.co/api/v2",
 });
 
-export const getPokemon = (searchTerm) => pokeApi.get(`/pokemon/${searchTerm}`);
+export const getPokémon = (searchTerm) => pokeApi.get(`/pokemon/${searchTerm}`);
