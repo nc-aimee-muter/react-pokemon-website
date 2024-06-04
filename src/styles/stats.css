@@ -1,0 +1,23 @@
+#hp {
+  background-color: rgba(255, 56, 56, 0.856);
+}
+
+#attack {
+  background-color: rgb(255, 162, 75);
+}
+
+#defense {
+  background-color: rgb(253, 238, 20);
+}
+
+#special-attack {
+  background-color: rgb(71, 151, 255);
+}
+
+#special-defense {
+  background-color: rgb(111, 231, 74);
+}
+
+#speed {
+  background-color: rgb(255, 111, 190);
+}
